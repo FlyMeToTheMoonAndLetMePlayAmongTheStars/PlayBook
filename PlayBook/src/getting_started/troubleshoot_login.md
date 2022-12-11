@@ -7,7 +7,7 @@ You may encounter some issues when logging in to some apps and games like Genshi
 1. Disable SIP
     - First shut down your Mac completely so the screen is black and all other lights are off
     - Press and hold the power button on your Mac until `Loading startup options` appears
-    - Select `Options` and continue
+    - Select <kbd>Options (⌥)</kbd> and continue
     - If prompted, select the correct storage disk
     - Log in with your administrator account 
     - When `Utilities` appears in the menu bar, click on it and choose `Terminal`
@@ -16,7 +16,7 @@ You may encounter some issues when logging in to some apps and games like Genshi
 
 2. Modify `nvram boot-args`
     - When you have SIP disabled, type the following:
-        - `Command (⌘)-Space`, type `Terminal` in the search box
+        - <kbd>Command (⌘)</kbd>+<kbd>Space</kbd>, type `Terminal` in the search box
     - Type or copy the following command in the terminal window that appears
         - `sudo nvram boot-args="amfi_get_out_of_my_way=0x1 ipc_control_port_options=0"`
     - If it appears that nothing has happened, this is correct.
@@ -24,7 +24,7 @@ You may encounter some issues when logging in to some apps and games like Genshi
 
 3. Login to Genshin
     - Open Genshin Impact with PlayCover, and you should be greeted with a Login button
-    - Login to your account, then wait until the door appears and quit the game with `Command (⌘)-Q`. **DO NOT CLICK/ENTER THE DOOR.**
+    - Login to your account, then quit the game with <kbd>Command (⌘)</kbd>+<kbd>Q</kbd> when the door appears. **DO NOT CLICK OR ENTER THE DOOR. IF YOU ENTER THE DOOR WHILE SIP IS DISABLED YOU WILL NOT BE ABLE TO ENTER AFTER RE-ENABLING SIP.**
 
 4. Enable SIP
     - Follow the steps in Step 1 to re-enter startup options
